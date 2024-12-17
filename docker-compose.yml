@@ -8,4 +8,4 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - config:/app
+      - ./config/config.json:/app/config.json
