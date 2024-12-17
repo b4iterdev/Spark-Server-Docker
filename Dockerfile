@@ -9,7 +9,7 @@ ARG TARGETARCH
 
 RUN curl -O -L https://github.com/b4iterdev/Spark/releases/latest/download/server_linux_${TARGETARCH}.tar.gz
 
-RUN tar -xzvf server_linux_$TARGETARCH.tar.gz -C /app/
+RUN tar -xvf server_linux_$TARGETARCH.tar.gz -C /app/
 
 RUN mv server_linux_$TARGETARCH server
     
